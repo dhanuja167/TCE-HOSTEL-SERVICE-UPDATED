@@ -1,0 +1,47 @@
+body> background{
+background-repeat: no-repeat;
+background-size:cover;
+}
+table{
+width: 80%;
+margin: 40px auto;
+background-image:url("https://img.freepik.com/free-vector/watercolor-abstract-background_220290-24.jpg?size=626&ext=jpg");
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 10px;
+}
+table{
+border-collapse: collapse;
+}
+table.list{
+width: 100%;
+}
+td, th{
+border: 1px solid #ddd;
+text-align: left;
+padding: 8px 15px;
+}
+tr:nth-child(even),table.listthead>tr{
+background-color: #B6AFAC;
+}
+input[type="text"], input[type="number"]{
+width: 91%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #FFB7B2;
+border-radius: 4px;
+}
+input[type="submit"],input[type="reset"]{
+background: #B4D3B2;
+padding: 6px 12px;
+font-size: 1rem;
+cursor: pointer;
+border-radius: 30px;
+border: none;
+margin: 15px 0 10px;
+outline: none;
+}
+input[type="submit"]:hover{
+background: #F5D5CB;
+}
